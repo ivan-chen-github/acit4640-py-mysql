@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
             push: true
-            tags: timoguic/demo4640:latest  # ADJUST WITH YOUR USER NAME
+            tags: acit3495labaccount/demo4640:latest  # ADJUST WITH YOUR USER NAME
