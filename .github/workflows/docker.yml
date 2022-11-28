@@ -32,3 +32,10 @@ jobs:
             push: true
             context: ./web/
             tags: acit3495labaccount/4640web:latest
+      -
+        name: Build and push init
+        uses: docker/build-push-action@v3
+        with:
+            push: true
+            context: ./init/
+            tags: acit3495labaccount/4640init:latest
